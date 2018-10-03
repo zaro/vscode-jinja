@@ -1,6 +1,6 @@
 {
-    "name": "jinja-html",
-    "scopeName": "text.html.jinja",
+    "name": "jinja-paren-html",
+    "scopeName": "text.html.jinja-paren",
     "comment": "Jinja Template Engine in HTML",
     "fileTypes": [
         "j2",

@@ -1,6 +1,6 @@
 {
-    "name": "jinja-yaml",
-    "scopeName": "text.yaml.jinja",
+    "name": "jinja-paren-yaml",
+    "scopeName": "text.yaml.jinja-paren",
     "comment": "Jinja Template Engine in YAML",
     "fileTypes": [
         "j2",

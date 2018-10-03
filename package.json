@@ -33,6 +33,14 @@
 				],
                 "extensions": [".j2"],
 				"configuration": "./jinja.configuration.json"
+			},
+			{
+				"id": "jinja-paren-html",
+				"aliases": [
+					"Jinja Paren Html"
+				],
+                "extensions": [".j2", ".html"],
+				"configuration": "./jinja.configuration.json"
 			}
 		],
 		"grammars": [
@@ -42,13 +50,13 @@
 				"path": "./syntaxes/jinja.json"
 			},
 			{
-				"language": "html",
-				"scopeName": "text.html.jinja",
+				"language": "jinja-paren-html",
+				"scopeName": "text.html.jinja-paren",
 				"path": "./syntaxes/jinja-html.json"
 			},
 			{
 				"language": "yaml",
-				"scopeName": "text.yaml.jinja",
+				"scopeName": "text.yaml.jinja-paren",
 				"path": "./syntaxes/jinja-yaml.json"
 			}
 		]
