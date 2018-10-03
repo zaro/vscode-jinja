@@ -1,17 +1,24 @@
-# Jinja for Visual Studio Code
+# Jinja with Parentheses for Visual Studio Code
 
-** This is a fork of the official extension that uses paranthesis instead of brackets for jinja. **
+**This is a fork of the official extension that uses parentheses instead of brackets for jinja.**
+
 To use just clone this repo in your ~/.vscode/extensions/ directory , and reload vscode.
 
 [![Join the chat at https://gitter.im/wholroyd/vscode-jinja](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wholroyd/vscode-jinja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This extension adds language colorization support for the Jinja template language to VS Code.
 
-![IDE](https://raw.githubusercontent.com/wholroyd/vscode-jinja/master/example.png)
+![IDE](https://raw.githubusercontent.com/zaro/vscode-jinja/master/example.png)
 
 ## Using
 
-First, you will need to install Visual Studio Code `1.0.0` or higher. In the command palette (`cmd-shift-p`) select `Install Extension` and choose `Jinja`.
+~~First, you will need to install Visual Studio Code `1.0.0` or higher. In the command palette (`cmd-shift-p`) select `Install Extension` and choose `Jinja`.~~
+
+Simply clone this repo in your vscode extensions directory:
+
+        cd ~/.vscode/extensions
+        git clone <<<THIS REPO URL>>>
+
 
 The downside of the Jinja language is that there is no defined file extension and as such, there is no way to detect it automatically in all cases. If you'd like to associate a file extension with this language, use the `file.association` setting as described [here](https://code.visualstudio.com/docs/languages/overview#_adding-a-file-extension-to-a-language).
 
