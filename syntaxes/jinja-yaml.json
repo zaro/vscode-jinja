@@ -7,10 +7,10 @@
         "yml",
         "yaml"
     ],
-    "firstLineMatch": "^{% extends [\"'][^\"']+[\"'] %}",
+    "firstLineMatch": "^\\(% extends [\"'][^\"']+[\"'] %\\)",
     "patterns": [
         {
-            "include": "source.jinja"
+            "include": "source.jinja-paren"
         },
         {
             "include": "source.yaml"

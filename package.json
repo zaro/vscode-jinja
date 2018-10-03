@@ -1,5 +1,5 @@
 {
-	"name": "jinja",
+	"name": "jinja-paren",
 	"version": "0.0.8",
 	"publisher": "wholroyd",
 	"author": {
@@ -7,8 +7,8 @@
 	},
 	"license": "MIT",
 	"icon": "icon.png",
-	"description": "Jinja template language support for Visual Studio Code",
-	"displayName": "Jinja",
+	"description": "Jinja Parentheses template language support for Visual Studio Code",
+	"displayName": "Jinja Parentheses",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/wholroyd/vscode-jinja.git"
@@ -27,9 +27,9 @@
 	"contributes": {
 		"languages": [
 			{
-				"id": "jinja",
+				"id": "jinja-paren",
 				"aliases": [
-					"Jinja"
+					"Jinja Parentheses"
 				],
                 "extensions": [".j2"],
 				"configuration": "./jinja.configuration.json"
@@ -37,8 +37,8 @@
 		],
 		"grammars": [
 			{
-				"language": "jinja",
-				"scopeName": "source.jinja",
+				"language": "jinja-paren",
+				"scopeName": "source.jinja-paren",
 				"path": "./syntaxes/jinja.json"
 			},
 			{

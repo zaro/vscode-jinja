@@ -1,5 +1,8 @@
 # Jinja for Visual Studio Code
 
+** This is a fork of the official extension that uses paranthesis instead of brackets for jinja. **
+To use just clone this repo in your ~/.vscode/extensions/ directory , and reload vscode.
+
 [![Join the chat at https://gitter.im/wholroyd/vscode-jinja](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/wholroyd/vscode-jinja?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This extension adds language colorization support for the Jinja template language to VS Code.

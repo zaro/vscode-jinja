@@ -1,9 +1,9 @@
-{% extends "layout.html" %}
-{% block body %}
+(% extends "layout.html" %)
+(% block body %)
   <ul>
-  {% for user in users %}
-    <li><a href="{{ user.url }}">{{ user.username }}</a></li>
-  {% endfor %}
+  (% for user in users %)
+    <li><a href="(( user.url ))">(( user.username ))</a></li>
+  (% endfor %)
   </ul>
-{% endblock %}
+(% endblock %)
 
